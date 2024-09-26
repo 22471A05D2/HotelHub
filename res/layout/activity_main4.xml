@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bd"
+    tools:context=".MainActivity4">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel Hub"
+        android:textColor="@color/black"
+    android:fontFamily="cursive"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:text="Please allow app to access this device's location?"
+
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/loc"
+        android:paddingBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="While using the app"
+        android:textColor="@color/black"
+        android:background="@color/design_default_color_background"
+        android:padding="25dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+         />
+
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/design_default_color_background"
+        android:text="Only this time"
+        android:layout_marginBottom="8dp"
+        android:padding="25dp"
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/design_default_color_background"
+        android:text="Deny"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/t1"
+            android:text="."/>
+    </LinearLayout>
+
+
+</LinearLayout>

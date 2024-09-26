@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bd"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Select Room Type?"/>
+
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="274dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+
+
+            android:src="@drawable/wbed" />
+
+        <Button
+            android:id="@+id/Single"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/white"
+            android:text="Single Bed room" />
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+
+
+        android:src="@drawable/s2h" />
+
+    <Button
+        android:id="@+id/Double"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="20dp"
+
+        android:textColor="@color/white"
+        android:text="Double  Bed room" />
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

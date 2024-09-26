@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+ android:orientation="vertical"
+    android:background="@drawable/bd"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity13">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:paddingTop="70dp"
+        android:src="@drawable/tick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:paddingLeft="40sp"
+        android:text="Congratulations!!"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20sp"
+        android:text="Your Room is Booked"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingLeft="50sp"
+        android:id="@+id/t1"
+        android:text="Thanks for Booking..."
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

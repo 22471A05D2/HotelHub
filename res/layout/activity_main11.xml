@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bd"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+
+
+
+        android:src="@drawable/wbed1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+
+                android:text="Royalton,HYD"
+                android:paddingLeft="20dp"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:paddingLeft="10sp"
+
+                android:rating="4.0"
+                android:stepSize="0.2"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="\u20B9 4300"
+                android:paddingLeft="20dp"
+                android:textSize="30sp"/>
+
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/s1"
+
+
+        android:src="@drawable/wbed" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+
+                android:text="Amrutha Castle"
+                android:paddingLeft="20dp"/>
+
+            <RatingBar
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:paddingLeft="10sp"
+
+                android:rating="4.5"
+                android:stepSize="0.2"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="\u20B9 7200"
+                android:paddingLeft="20dp"
+                android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+
+
+
+        android:src="@drawable/db1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+
+                android:text="The Pride"
+                android:paddingLeft="20dp"/>
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:paddingLeft="10sp"
+
+                android:rating="4.5"
+                android:stepSize="0.2"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="\u20B9 3500"
+                android:paddingLeft="20dp"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

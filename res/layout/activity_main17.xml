@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bd"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity17">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:paddingTop="50dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/s1"
+
+
+                android:src="@drawable/wbed2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+
+                android:text="Central Court Hotel,Kochi"
+                android:paddingLeft="20dp"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:paddingLeft="10sp"
+
+                android:rating="4.0"
+                android:stepSize="0.5" />
+
+
+            <TextView
+
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="\u20B9 4999"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonShowDates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="Show Selected Dates" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/book"
+
+                android:background="@color/cardview_dark_background"
+                android:text="Book Now and Pay at Hotel"/>
+
+            <Button
+                android:id="@+id/pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/cardview_dark_background"
+
+                android:text="Pay Now"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
